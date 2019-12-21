@@ -13,7 +13,7 @@
 	</parent>
 	
 	<groupId>com.extremesolutions</groupId>
-	<artifactId>patients-service</artifactId>
+	<artifactId>doctors-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	
 	<name>doctors-service</name>
