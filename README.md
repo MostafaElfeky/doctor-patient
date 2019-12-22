@@ -26,7 +26,7 @@ Eclipse
  - Install MySQL 8 and create database name  it `appointmet`  with username  `root` and password `root`
  - Pull the repository into your local system .  
  - Import the four projects  as a maven project into eclipse worksapce. 
- - Please in property file {spring.jpa.hibernate.ddl-auto = create} to create database.
+ - Please update property file property {spring.jpa.hibernate.ddl-auto = create} to create database.
  - Run the attached SQL file `data.sql` which include some dummy data to play with.
  - Run services one by one as a spring boot web application. 
  - Each  service has it's own swagger documentation you can access them via:
