@@ -24,10 +24,11 @@ Eclipse
 ### Installing
 
  - Install MySQL 8 and create database name  it `appointmet`  with username  `root` and password `root`
- - Run the attached SQL file `data.sql` which include some dummy data to play with.
  - Pull the repository into your local system .  
  - Import the four projects  as a maven project into eclipse worksapce. 
- - Run them one by one as a spring boot web application. 
+ - Please in property file {spring.jpa.hibernate.ddl-auto = create} to create database.
+ - Run the attached SQL file `data.sql` which include some dummy data to play with.
+ - Run services one by one as a spring boot web application. 
  - Each  service has it's own swagger documentation you can access them via:
 	 - [doctors-service](http://localhost:8081/swagger-ui.html#/)
 	 - [patients-service](http://localhost:8082/swagger-ui.html#/)
